@@ -1,9 +1,0 @@
-
-*.sqlite3 
-*.log local_settings.py 
-.env 
-*.env 
-media/ 
-staticfiles/
-__pycache__
-
