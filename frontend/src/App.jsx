@@ -6,7 +6,7 @@ import { Button } from './components/ui/button'
 const App = () => {
   return (
     <div>
-      <Button>Click toh kr laude</Button>
+      <Button>Click here</Button>
     </div>
   )
 }
