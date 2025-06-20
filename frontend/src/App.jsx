@@ -1,13 +1,17 @@
 
-
-import React from 'react'
-import { Button } from './components/ui/button'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import NavBar from './components/shared/NavBar'
+import Home from './pages/Home/Home'
 
 const App = () => {
   return (
-    <div>
-      <Button>Click here</Button>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home /> } />
+      </Routes>
+      
+    </BrowserRouter>
   )
 }
 
